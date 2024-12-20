@@ -1,0 +1,204 @@
+
+    /* Basic Reset */
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+   body {
+       font-family: 'Arial', sans-serif;
+       line-height: 1.6;
+       background-color: #f4f4f4;
+       color: #333;
+       padding: 0 20px;
+   }
+   nav a{
+    position: relative;
+   }
+   
+   /* Main Wrapper Layout */
+   #main {
+       display: flex;
+       justify-content: space-between;
+       gap: 30px;
+       padding: 20px;
+       flex-wrap: wrap; /* Ensure it's responsive */
+   }
+   
+   /* Title Section */
+   #title-head {
+       width: 100%;
+       text-align: center;
+       margin-bottom: 20px;
+   }
+   
+   h1 {
+       font-size: 24px;
+       font-weight: 600;
+       color: #333;
+   }
+   
+   /* Left Section */
+   #left-section {
+       width: 35%; /* Reduced width to make it more compressed */
+       min-width: 250px; /* Ensuring a minimum size */
+       flex-grow: 0; /* Prevents it from growing too wide */
+   }
+   
+   /* Right Section */
+   #right-section {
+       width: 60%; /* Increased width to make it wider */
+       min-width: 320px; /* Ensuring a minimum size */
+       flex-grow: 1; /* Allows the right section to take up remaining space */
+   }
+   
+   /* Form Labels and Inputs */
+   label {
+       display: block;
+       margin-bottom: 10px;
+       font-weight: 600;
+   }
+   
+   input[type="text"] {
+       width: 100%;
+       padding: 8px;
+       margin-top: 5px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       font-size: 14px;
+       color: #555;
+   }
+   
+   /* Table Styling */
+   table {
+       width: 100%;
+       border-collapse: collapse;
+       margin-top: 20px;
+       background-color: #fff;
+       border-radius: 8px;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+   
+   th, td {
+       padding: 12px 20px;
+       text-align: left;
+       border: 1px solid #ddd;
+   }
+   
+   th {
+       background-color: #f2f2f2;
+       font-weight: bold;
+   }
+   
+   tbody tr:nth-child(even) {
+       background-color: #f9f9f9;
+   }
+   
+   tbody tr:hover {
+       background-color: #f1f1f1;
+       cursor: pointer;
+   }
+   
+   /* Scrollable Container */
+   .scrollable {
+       max-height: 400px;
+       overflow-y: auto;
+   }
+   
+   /* Instructor's Name Suggestions Box */
+   .name-suggestions-box {
+       max-height: 150px;
+       overflow-y: auto;
+       border: 1px solid #ccc;
+       background-color: #fff;
+       position: absolute;
+       z-index: 999;
+       width: 100%;
+       border-radius: 4px;
+   }
+   
+   .suggestion-item {
+       padding: 8px;
+       cursor: pointer;
+   }
+   
+   .suggestion-item:hover {
+       background-color: #ddd;
+   }
+   
+   /* Timetable Styles */
+   #timetable th {
+       background-color: #4CAF50;
+       color: white;
+       padding: 12px;
+   }
+   
+   #timetable td {
+       padding: 10px;
+       background-color: #f4f4f4;
+       border: 1px solid #ddd;
+   }
+   
+   .main-time {
+       font-weight: bold;
+       color: #333;
+   }
+   
+   .half-time {
+       font-size: 12px;
+       color: #777;
+   }
+   
+   /* Print Button Styling */
+   .print-btn {
+       background-color: #4CAF50;
+       color: white;
+       padding: 12px 25px;
+       font-size: 16px;
+       border-radius: 5px;
+       border: none;
+       cursor: pointer;
+       display: inline-block;
+       margin: 20px 0;
+       text-align: center;
+       width: 100%;
+   }
+   
+   .print-btn:hover {
+       background-color: #45a049;
+   }
+   
+   .print-btn .printer-wrapper {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 10px;
+   }
+   
+   .printer-container {
+       width: 24px;
+       height: 24px;
+   }
+   
+   .printer-page-wrapper {
+       font-size: 16px;
+   }
+   
+   /* Responsive Design */
+   @media screen and (max-width: 768px) {
+       #main {
+           flex-direction: column;
+       }
+   
+       #left-section, #right-section {
+           width: 100%;
+       }
+   
+       .print-btn {
+           width: auto;
+           padding: 10px 20px;
+       }
+   }
+
+  

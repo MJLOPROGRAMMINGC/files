@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CTU Teaching Load</title>
+  <link href="{% static 'css/home.css' %}" rel="stylesheet">
+</head>
+<body>
+
+  <header>  
+    
+    
+    <img src="{% static 'img/ctu_logo.png' %}" alt="" class="logo" type="image/png">
+    <img src="{% static 'img/bagong pilipinas logo.png' %}" alt="" class="logo2" type="image/png">
+    <div class="heading_text_logo">
+     <span class="republic">Republic of the Philippines</span><br>
+     <span class="ctu">CEBU TECHNOLOGICAL UNIVERSITY</span><br>
+     <span class="province">PROVINCE OF CEBU</span><br>
+     <a href="www.ctu.edu.ph" id="ctu-link">www.ctu.edu.ph</a><br>
+     <span>Phone: +63332 402 4060 loc. 1137</span>
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    </span>
+  
+   
+
+  <main>
+    <section id="home">
+    
+
+      <div class="content1">
+        <p>CTU Dumanjug Extension</p>
+        <p class="p1">Teaching Load</p>
+      </div>
+      
+      <div class="btn">
+        <a href="{% url 'teaching_load' %}" class="but btn2" id="btn_shadow">Create Teaching Load</a><br><br>
+      <a href="{% url 'create_teaching_load' %}" class="but btn1" id="btn_shadow">Program by Instructor</a> <br><br>
+          <a href="#" class="but btn2" id="btn_shadow">Program by Section</a><br><br>
+          <a href="#" class="but btn2" id="btn_shadow">Room</a><br><br>
+          <a href="#" class="but btn2" id="btn_shadow">View instructors</a>
+      </div>
+    </section>
+  </main>
+ 
+</body>
+<footer><img src="{% static 'img/footer.png' %}" alt="" class="footer-image" type="image/png"></footer>
+</html>

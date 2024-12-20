@@ -1,0 +1,220 @@
+body{
+    padding: 0px;
+    margin: 0px;
+background: url("your_background_image.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ 
+ 
+ .logo{
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    position: fixed; top: 10%; left: 38%; transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 6px black,0px 0px 7px black,0px 0px 50px black;
+    z-index: 1000;
+}
+
+
+
+#ctu-link{
+    font-style: italic;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 5px;
+}
+
+#ctu-link:hover { 
+    color: #E87A00; 
+    text-decoration: underline;} 
+
+
+
+
+.heading_text_logo{
+    text-align: center;
+   color: white;
+    text-shadow: 1px 2px 3px black, 0px 0px 20px black, 0px 0px 100px black;
+    position: fixed; top: 11%; left: 50%; transform: translate(-50%, -50%);
+    line-height: 24px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.republic{
+    color: white;
+font-weight: bold;
+}
+.ctu{
+    font-weight: bolder;
+    font-size: 19px;
+    color: #D89C60;
+    font-weight: bolder;
+}
+.province{
+    font-size: 15px;
+}
+
+
+
+
+.logo-bg{
+    position: fixed;
+    width: 45%;
+    height: 25%;
+    z-index:1000;
+}
+
+
+.logo2{
+    border-radius: 20px;
+    width: 140px;
+    height: 140px;
+    position: fixed; top: 10%; left: 62%; transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 15px black;
+    z-index: 1000;
+}
+
+
+
+.content1{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    font-weight: bolder;
+    text-shadow: 2px 3px 15px black,2px 3px 20px black;
+ position: fixed;
+ top: 13%;
+ left: 50%;
+ transform: translateX(-50%)   
+}
+
+
+.p1{
+    position: relative;
+    bottom: 50px;
+   
+}
+ .p2{
+    font-size: 20px;
+  position: absolute;
+  top: 380px;
+  left: 79px;
+    font-weight: normal;
+    color: #D89C60;
+ }
+
+ .p3{
+    font-size: 20px;
+  position: absolute;
+  top: 410px;
+  left: 79px;
+    font-weight: normal;
+    color: #D89C60;
+ }
+
+ .p4{
+    font-size: 20px;
+  position: absolute;
+  top: 440px;
+  left: 79px;
+    font-weight: normal;
+    color: #D89C60;
+ }
+
+
+ .btn {
+    position: fixed;
+    top: 60%; left: 47%; transform: translate(-50%, -50%);
+    text-align: center;
+   line-height: 25px;
+ 
+}
+
+#btn_shadow{
+    box-shadow: 0px 0px 10px black;
+}
+     
+
+/* Shared button styles */
+a.but,.btn2, button {
+    display: inline-block; /* Ensures links behave like buttons */
+   width: 150%;
+    font-size: 18px;
+    border-radius: 10px;
+   padding: 10px;
+    transition: 0.3s;
+    text-decoration: none; /* Removes underline for links */
+    text-align: center; /* Aligns text properly */
+  
+ 
+}
+
+/* Specific styles for btn1 */
+a.btn1, button.btn1 {
+    background-color: #E87A00;
+    color: white;
+    margin-right: 10px;
+   
+}
+
+a.btn1:hover, button.btn1:hover {
+    background-color: white;
+    color: #E87A00;
+    transform: scale(1.1);
+}
+
+/* Optional: Styling hover state for accessibility */
+a.but:focus, button.but:focus {
+    outline: none;
+ 
+}
+
+
+.btn2{
+    background-color: #E87A00;
+    color: white;
+    border: 2px solid #E87A00;
+    margin-right: 10px;
+    
+}
+.btn2:hover{
+    background-color: white;
+    color: #E87A00;
+    border: 2px solid white;
+    transform: scale(1.1);
+}
+
+
+
+footer{
+   position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 120px;
+ 
+    color: #D89C60;
+    text-align: center;
+    padding: 10px;
+   
+}
+.footer-image{
+border-radius: 5px;
+    width: 44%;
+    height: 60px;
+    position: fixed;
+    bottom: 0px; left: 50%; transform: translate(-50%,-50px);
+    top:95% ;
+ padding: 10px;
+ background-color: white;
+ border: 1px solid #D89C60;
+ box-shadow: 0px 0px 20px black;
+}
+ 
